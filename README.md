@@ -1,2 +1,0 @@
-# Carousel
-bootstrap nav，Carousel
