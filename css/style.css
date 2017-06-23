@@ -1,5 +1,6 @@
 
-
+#preloader{ background:none repeat scroll 0 0 #fff; height:100%; position:fixed; width:100%; z-index:9999;}
+#preloader i{ left:50%; margin-left:-15px; margin-top:-15px; position:absolute; top:50%;}
 
 .navbar{ margin-bottom:0;}
 .navbar-brand{ color:#999; font-size:30px; font-weight:300px; line-height:30px; margin-top:15px;}
