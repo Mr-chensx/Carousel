@@ -1,155 +1,293 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-	<meta charset="utf-8">
-	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
-	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
-	<meta name="format-detection" content="telephone=no, email=no" />
-	<title>Carousel</title>
-	<link type="text/css" rel="stylesheet" href="css/animate.min.css">
-	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
-	<link type="text/css" rel="stylesheet" href="css/style.css">
-	<link type="text/css" rel="stylesheet" href="css/carousel.css">
-	<link type="text/css" rel="stylesheet" href="css/font-awesome.min.css">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="format-detection" content="telephone=no, email=no" />
+  <title>Carousel</title>
+  <link type="text/css" rel="stylesheet" href="css/animate.min.css">
+  <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+  <link type="text/css" rel="stylesheet" href="css/carousel.css">
+  <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css">
+  <link type="text/css" rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 <!-- load start -->
 <div id="preloader">
-	<i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
+  <i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
 </div>
 <!-- load end -->
 
 <!-- header nav start -->
 <header>
-	<div class="container">
-		<nav class="navbar navbar-default">
-		  <div class="container-fluid">
-			<div class="navbar-header">
-			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			  </button>
-			  <a class="navbar-brand" href="javascript:;">N<span>ame</span></a>
-			</div>
-		
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			  <ul class="nav navbar-nav navbar-right">
-				<li class="dropdown">
-				  <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover="dropdown" data-toggle="dropdown" href="javascript:;">Home <span class="caret"></span></a>
-				  <ul class="dropdown-menu">
-					<li><a href="javascript:;">Home Parallax</a></li>
-					<li><a href="javascript:;">Home Seq-slider1</a></li>
-					<li><a href="javascript:;">Home Seq-slider2</a></li>
-				  </ul>
-				</li>
-				<li class="dropdown">
-				  <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover="dropdown" data-toggle="dropdown" href="javascript:;">Feature <span class="caret"></span></a>
-				  <ul class="dropdown-menu">
-					<li><a href="javascript:;">Home Parallax</a></li>
-					<li><a href="javascript:;">Home Seq-slider1</a></li>
-					<li><a href="javascript:;">Home Seq-slider2</a></li>
-				  </ul>
-				</li>
-				<li class="dropdown">
-				  <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover="dropdown" data-toggle="dropdown" href="javascript:;">Pages <span class="caret"></span></a>
-				  <ul class="dropdown-menu">
-					<li><a href="javascript:;">Home Parallax</a></li>
-					<li><a href="javascript:;">Home Seq-slider1</a></li>
-					<li><a href="javascript:;">Home Seq-slider2</a></li>
-				  </ul>
-				</li>
-				<li class="dropdown">
-				  <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover="dropdown" data-toggle="dropdown" href="javascript:;">Portfolio <span class="caret"></span></a>
-				  <ul class="dropdown-menu">
-					<li><a href="javascript:;">Home Parallax</a></li>
-					<li><a href="javascript:;">Home Seq-slider1</a></li>
-					<li><a href="javascript:;">Home Seq-slider2</a></li>
-				  </ul>
-				</li>
-				<li class="dropdown">
-				  <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover="dropdown" data-toggle="dropdown" href="javascript:;">Blog <span class="caret"></span></a>
-				  <ul class="dropdown-menu">
-					<li><a href="javascript:;">Home Parallax</a></li>
-					<li><a href="javascript:;">Home Seq-slider1</a></li>
-					<li><a href="javascript:;">Home Seq-slider2</a></li>
-				  </ul>
-				</li>
-				<li><a href="javascript:;">Contant</a></li>
-				<li><input class="form-control search" placeholder=" Search" type="text"></li>
-			  </ul>
-			</div>
-		  </div>
-		</nav>
-	</div>
+  <div class="container">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">N<span>ame</span></a>
+        </div>
+        
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover="dropdown" data-toggle="dropdown" href="#">Home <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Home Parallax</a></li>
+                <li><a href="#">Home Seq-slider1</a></li>
+                <li><a href="#">Home Seq-slider2</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover="dropdown" data-toggle="dropdown" href="#">Feature <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Home Parallax</a></li>
+                <li><a href="#">Home Seq-slider1</a></li>
+                <li><a href="#">Home Seq-slider2</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover="dropdown" data-toggle="dropdown" href="#">Pages <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Home Parallax</a></li>
+                <li><a href="#">Home Seq-slider1</a></li>
+                <li><a href="#">Home Seq-slider2</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover="dropdown" data-toggle="dropdown" href="#">Portfolio <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Home Parallax</a></li>
+                <li><a href="#">Home Seq-slider1</a></li>
+                <li><a href="#">Home Seq-slider2</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover="dropdown" data-toggle="dropdown" href="#">Blog <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Home Parallax</a></li>
+                <li><a href="#">Home Seq-slider1</a></li>
+                <li><a href="#">Home Seq-slider2</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Contant</a></li>
+            <li><input class="form-control search" placeholder=" Search" type="text"></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
 </header>
 <!-- hearder nav end -->
 
 <!-- carousel start -->
 <div id="da-slider" class="da-slider">
-    <div class="da-slide">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2> <i>CLEAN &amp; FRESH</i> <br>
-                        <i>RESPONSIVE</i> <br>
-                        <i>DESIGN</i> </h2>
-                    <p> <i>Lorem ipsum dolor amet</i> <br />
-                        <i>veniam omnis</i> </p>
-                    <a href="javascript:;" class="btn btn-info btn-lg da-link"> Read more </a>
-                    <div class="da-img"> <img src="images/2.png" alt="image02" /> </div>
-                </div>
-            </div>
+  <div class="da-slide">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 \> <i>CLEAN &amp; FRESH</i> <br>
+            <i>RESPONSIVE</i> <br>
+            <i>DESIGN</i> </h2>
+          <p> <i>Lorem ipsum dolor amet</i> <br />
+          <i>veniam omnis</i> </p>
+          <a href="#" class="btn btn-info btn-lg da-link"> Read more </a>
+          <div class="da-img"> <img src="images/2.png" alt="image02" /> </div>
         </div>
+      </div>
     </div>
-    <div class="da-slide">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2> <i>RESPONSIVE VIDEO</i> <br />
-                        <i>SUPPORT AND</i> <br />
-                        <i>MANY MORE</i> </h2>
-                    <p> <i>Lorem ipsum dolor amet</i> <br />
-                        <i>tempor incididunt ut</i> </p>
-                    <a href="javascript:;" class="btn btn-info btn-lg da-link"> Read more </a>
-                    <div class="da-img"> <img src="images/3.png" alt="image03" /> </div>
-                </div>
-            </div>
+  </div>
+  <div class="da-slide">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2> <i>RESPONSIVE VIDEO</i> <br />
+            <i>SUPPORT AND</i> <br />
+            <i>MANY MORE</i> </h2>
+          <p> <i>Lorem ipsum dolor amet</i> <br />
+            <i>tempor incididunt ut</i> </p>
+          <a href="#" class="btn btn-info btn-lg da-link"> Read more </a>
+          <div class="da-img"> <img src="images/3.png" alt="image03" /> </div>
         </div>
+      </div>
     </div>
-    <div class="da-slide">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2> <i>USING BEST WEB</i> </br>
-                        <i>SOLUTIONS WITH</i> </br>
-                        <i>HTML5/CSS3</i> </h2>
-                    <p> <i>Lorem ipsum dolor amet</i> <br />
-                        <i>tempor incididunt ut</i> <br />
-                        <i>veniam omnis </i> </p>
-                    <a href="javascript:;" class="btn btn-info btn-lg da-link"> Read more </a>
-                    <div class="da-img"> <img src="images/1.png" alt="image01" /> </div>
-                </div>
-            </div>
+  </div>
+  <div class="da-slide">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2> <i>USING BEST WEB</i> </br>
+            <i>SOLUTIONS WITH</i> </br>
+            <i>HTML5/CSS3</i> </h2>
+          <p> <i>Lorem ipsum dolor amet</i> <br />
+            <i>tempor incididunt ut</i> <br />
+            <i>veniam omnis </i> </p>
+          <a href="#" class="btn btn-info btn-lg da-link"> Read more </a>
+          <div class="da-img"> <img src="images/1.png" alt="image01" /> </div>
         </div>
+      </div>
     </div>
-    <nav class="da-arrows"> <span class="da-arrows-prev"> </span> <span class="da-arrows-next"> </span> </nav>
+  </div>
+  <nav class="da-arrows"> <span class="da-arrows-prev"> </span> <span class="da-arrows-next"> </span> </nav>
 </div>
 <!-- carousel end -->
+
+<!-- welcome start -->
+<div class="welcome">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="wow fadeInDown">
+          <h2>welcome to name</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="box wow fadeInUp">
+          <img src="images/01.png" />
+          <h3>Multipurpose Template</h3>
+          <p>Lorem ipsum dolor sit amet, dolore eiusmod quis tempor incididunt ut et dolore Ut veniam unde nostrudlaboris.</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="box wow fadeInUp">
+          <img src="images/02.png" />
+          <h3>Multipurpose Template</h3>
+          <p>Lorem ipsum dolor sit amet, dolore eiusmod quis tempor incididunt ut et dolore Ut veniam unde nostrudlaboris.</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="box wow fadeInUp">
+          <img src="images/03.png" />
+          <h3>Multipurpose Template</h3>
+          <p>Lorem ipsum dolor sit amet, dolore eiusmod quis tempor incididunt ut et dolore Ut veniam unde nostrudlaboris.</p>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+<!-- welcome end -->
+
+<!-- ready start -->
+<div class="ready">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="wow fadeInLeft" style="text-align: center;">
+          <img src="images/tab1.png" />
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="wow fadeInRight">
+          <h1>mobile ready</h1>
+          <hr>
+          <p><i class="fa fa-check fa-lg pr-10"></i>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ablic jiener. natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ablic jiener. natus error sit voluptatem accusantiu.</p>
+          <p><i class="fa fa-check fa-lg pr-10"></i>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ablic jiener. natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ablic jiener. natus error sit voluptatem accusantiu.</p>
+          <p><i class="fa fa-check fa-lg pr-10"></i>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ablic jiener. natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ablic jiener. natus error sit voluptatem accusantiu.</p>
+          <hr>
+          <a href="#">Purchase now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ready end -->
+
+<!-- tab start -->
+<div class="tab">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="wow fadeInLeft">
+          <div class="panel-heading">
+            <ul class="nav nav-tabs nav-justified">
+              <li class="active"><a href="#news" data-toggle="tab">News</a></li>
+              <li><a href="#events" data-toggle="tab">Events</a></li>
+              <li><a href="#notice" data-toggle="tab">Notice board</a></li>
+            </ul>
+          </div>
+          <div class="tab-content panel-body">
+            <div class="tab-pane active" id="news">
+              <div class="media">
+                <div class="pull-left">
+                  <img src="images/product1.jpg" />
+                </div>
+                <div>
+                  <a href="#">News Tittle goes here</a>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+              </div>
+              <div class="media">
+                <div class="pull-left">
+                  <img src="images/product2.jpg" />
+                </div>
+                <div>
+                  <a href="#">News Tittle goes here 2</a>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. simsut dorlor</p>
+                </div>
+              </div>
+              <div class="media">
+                <div class="pull-left">
+                  <img src="images/product1.jpg" />
+                </div>
+                <div>
+                  <a href="#">News Tittle goes here 3</a>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. sumon ahmed</p>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="events">
+              <div>
+                <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+                <p> 1 hours ago</p>
+              </div>
+              <div>
+                <a href="#">Nulla vel metus scelerisque ante sollicitudin commodo</a>
+                <p> 23 hours ago</p>
+              </div>
+              <div>
+                <a href="#">Donec lacinia congue felis in faucibus.</a>
+                <p> 1 day ago</p>
+              </div>
+            </div>
+            <div class="tab-pane" id="notice">
+              <p>Notice board goes here Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ablic jiener.</p>
+              <p>Notice board goes here Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ablic jiener.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- tab end -->
+
+
 <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/wow.min.js"></script>
 <script type="text/javascript" src="js/carousel.js"></script>
 <script type="text/javascript" src="js/carousel-point.js"></script>
 <script type="text/javascript">
-$(function() {
-	$('#da-slider').cslider({
-		autoplay    : true,
-		bgincrement : 100
-	});
-});
+    $(function() {
+        $('#da-slider').cslider({
+            autoplay    : true,
+            bgincrement : 100
+        });
+    });
+</script>
+<script>
+    new WOW().init();
 </script>
 </body>
 
